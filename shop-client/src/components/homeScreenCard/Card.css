@@ -1,0 +1,51 @@
+.main{
+    width: 200px;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.mcard{
+    display: flex;
+    justify-content: center;
+}
+.mcard img{
+    height: 170px;
+    width: 220px;
+   border-radius: 2px;
+}
+.tit{
+    font-size: 1.5em;
+    font-weight: 700;
+    overflow: hidden;
+}
+.desc{
+    height: 30px;
+    font-size: .8rem;
+    overflow: hidden;
+}
+.pri{
+    text-align: center;
+}
+
+p Link{
+    text-decoration: none;
+}
+.view {
+    text-align: center;
+    font-size: 1.5rem;
+    background: rgba(0,0,0, 0.1);
+    border-radius: 5px;
+    margin: .2rem 1.7rem;
+    direction: none;
+   }
+.view a{
+    text-decoration: none;
+    color: black;
+}
+.view:hover{
+   background-color: rgba(0,0,0, 0.4);
+}

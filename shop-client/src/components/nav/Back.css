@@ -1,0 +1,13 @@
+.back{
+    display: flex;
+    width: 100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.5);
+    z-index: 100;
+    position: fixed;
+}
+@media(min-width:960px){
+    .back{
+        display: none;
+    }
+}

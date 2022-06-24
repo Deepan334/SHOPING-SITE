@@ -1,0 +1,70 @@
+.side{
+    width: 70%;
+    height: 100vh;
+    background: white;
+    z-index: 200;
+    position: fixed;
+    top:0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all .3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show {
+    transform: translateX(0);
+}
+.a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -37px;
+}
+li {
+    list-style: none;
+}
+.fist{
+    width: 70vw;
+    text-align: center;
+}
+.fist a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.fist a:hover{
+color:white;
+background: black;
+font-size: 1.5rem;
+}
+
+.sec{
+    width:70vw;
+    text-align: center;
+}
+
+.sec a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.sec a:hover {
+    background: black;
+    color:white;
+    font-size: 1.5rem;
+} 
+@media(min-width:960px){
+    .side{
+        display: none;
+    }
+    .a{
+        display: none;
+    }
+}
