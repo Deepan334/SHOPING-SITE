@@ -1,3 +1,5 @@
+Full project is MERN based
+
 $step one 
 go to shop server and start the server by npm  start 
 
